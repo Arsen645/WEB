@@ -109,10 +109,10 @@ article .dest {
 }
 article .price p{
     float: right;
-    font-size: 1.9em;
+    font-size: 1.7em;
     text-align: center;
     padding-right: 10%;
 }
 .euro {
-    font-size: 3em !important;
+    font-size: 3em !important; /*does not work*/
 }
