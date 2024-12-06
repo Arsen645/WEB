@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: tahoma;
+    font-size: 62.5%;
+}
+header {
+    background-color: #0e86d4;
+    color: #FFF;
+    }
+#logo {
+    font-size: 5em;
+    padding: 8px;
+    padding-left: 15px;
+    }
+header div {
+    float: right;
+    margin-right: 3em;
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+
+    
+
+nav {
+    background-image: url('images/Layer1.jpg');
+    height: 12em;
+    background-position: bottom;
+}
+nav div {
+    width: 80%;
+    margin:auto;
+    margin-top: 2em;
+    margin-bottom: auto;
+    height: 6em;
+    background-color: #FFF;
+    border-radius: 25px;
+
+}
+aside {
+    float: left;
+    width: 25em;
+    background-color: rgb(242, 245, 244);
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 8em;
+    padding-left: 1.5em;
+
+}
+label {
+}
+aside fieldset { 
+    font-size: 1.8em;
+    border: none;
+}
+aside legend { /*popular filtres*/
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+
+}
+
+aside h2 {  /*Filtres*/
+    margin-top: 1em ;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+}
+.place {
+    float: left;
+    border-width: 1px;
+    border-color: #000;
+    background-color: rgb(242, 245, 244);
+    margin-right: 4em;
+    box-shadow: 0px 9px 15px -5px rgba(0, 0, 0, 0.4);
+    width: 33em;
+    height: 25em;
+    border-radius: 15px;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    margin-bottom: 5em;
+}
+
+content >p:first-of-type {
+    font-size: 3em;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-top: 1em;
+
+}
+content article {
+    padding: 0px;
+    ba
+}
+article img {
+    width: 100%;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+}
+article div p {
+    font-size: 1.7em ;
+    padding-left: 5%;
+    padding-top: 5px;
+    float: left;
+}
+article .dest {
+    font-size: 1.8em;
+}
+article .price p{
+    float: right;
+    font-size: 1.9em;
+    text-align: center;
+    padding-right: 10%;
+}
+.euro {
+    font-size: 3em !important;
+}
