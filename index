@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="stylecss.css" type = "text/css">
+  </head>
+  <body>
+   <header>
+    <span id = "logo">Rest Compass</span>
+    <span class = "functions">Support</span>
+    </header>
+    <nav>
+      jdhfjh
+      <div> 
+        <div class = "sub">
+          <p>kshf</p>kekhf
+        </div>
+      </div>
+    </nav>
+    <aside>
+      sef
+    </aside>
+    <content>
+      <p>Popular this month</p>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+      <article class = "place">
+        23
+      </article>
+    </content>
+  </body>
+</html>
