@@ -9,7 +9,7 @@
    <header>
     <span id = "logo"><b><a href="index.html">Rest Compass</a></b></span>
     <div>
-    <span><a href="http://www.ittralee.ie" class="right">Support</a></span>
+    <span> <a href="http://www.ittralee.ie" class="right">Support</a></span>
     <span> <a href="http://www.ittralee.ie" class="right">Help</a></span>
     <span> <a href="http://www.ittralee.ie" class="right">Sitemap</a></span>
     <span> <a href="http://www.ittralee.ie" class="right">Sign up</a></span>
@@ -112,7 +112,7 @@
           <div id = "text">
               <fieldset>
                   
-                  <textarea name = "comments" rows = "1" cols = "33" > </textarea>
+                  <textarea autofocus name = "comments" rows = "1" cols = "33" >Enter your destination...</textarea>
               </fieldset>
           </div>
       </div>
@@ -159,11 +159,25 @@
           <input type="checkbox" name = "Room" id = "pl" value = "pl">
           <label for="pl">6+ Pleasant </label><br>
         </fieldset>
+        <fieldset>
+          <legend>Property rating</legend>
+            <input type="checkbox" name = "rating" id = "1st" value = "1st">
+            <label for="1st">1 star </label><br>
+            <input type="checkbox" name = "rating" id = "2st" value = "2st">
+            <label for="2st">2 stars</label><br>
+            <input type="checkbox" name = "rating" id = "3st" value = "3st">
+            <label for="3st">3 stars</label><br>
+            <input type="checkbox" name = "rating" id = "4st" value = "4st">
+            <label for="4st">4 stars</label><br>
+            <input type="checkbox" name = "rating" id = "5st" value = "5st">
+            <label for="5st">5 stars</label>
+          </fieldset>
       </form>
     </aside>
     <content>
       <p>Popular this month</p>
       <article class = "place">
+        <a href="search.html">
         <!--<figure>
           <picture> 
                <source srcset="images/Paris.webp" type="image/webp">
@@ -181,9 +195,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Rome.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Rome.jpg" alt="Rome">
         <div>
           <p><span class = "dest">Rome</span><br>
           Italy</p>
@@ -194,9 +210,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Dublin.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Dublin.jpg" alt="Dublin">
         <div>
           <p><span class = "dest">Dublin</span><br>
           Ireland</p>
@@ -207,9 +225,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Barcelona.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Barcelona.jpg" alt="Barcelona">
         <div>
           <p><span class = "dest">Barcelona</span><br>
           Spain</p>
@@ -220,9 +240,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Madeira.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Madeira.jpg" alt="Madeira">
         <div>
           <p><span class = "dest">Madeira</span><br>
           Portugal</p>
@@ -233,9 +255,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Cork.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Cork.jpg" alt="Cork">
         <div>
           <p><span class = "dest">Cork</span><br>
           Ireland</p>
@@ -246,9 +270,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/London.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/London.jpg" alt="London">
         <div>
           <p><span class = "dest">Paris</span><br>
           France</p>
@@ -259,9 +285,11 @@
           per night</p>
           
         </div>
+      </a>
       </article>
       <article class = "place">
-        <img src="images/Valencia.jpg" alt="Paris">
+        <a href="search.html">
+        <img src="images/Valencia.jpg" alt="Valencia">
         <div>
           <p><span class = "dest">Paris</span><br>
           France</p>
@@ -272,9 +300,11 @@
           per night</p>
           
         </div>
-      </article><a href="http://www.google.com">
+        </a>
+      </article>
+      <a href="search.html">
       <article class = "place">
-        <img src="images/Munich.jpg" alt="Paris">
+        <img src="images/Munich.jpg" alt="Munich">
         <div>
           <p><span class = "dest">Munich</span><br>
           Germany</p>
@@ -289,7 +319,11 @@
     </content>
     <div class="clear"></div>
     <footer>
-      <div><p>Ireland </p></div>
+      <div id = "sq"><p>Ireland, € EUR</p></div>
+      <span>Support</span>
+      <span>Discover</span>
+      <span>Cookie policy</span>
+      <span>Explore</span>
     </footer>
   </body>
 </html>

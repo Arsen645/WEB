@@ -21,6 +21,9 @@ header div {
     font-size: 2em;
     padding-top: 1.2em;
 }
+a {
+    color: #000;
+}
 header a {
     text-decoration: none;
     color:#FFF;
@@ -60,15 +63,19 @@ nav div div {
     border-left: 2px solid rgb(115, 113, 113);
     padding-bottom: 1.6em;
     padding-left: 1rem;
+    width: 8%;
 
 }
-nav input {
+nav input { /*search button*/
     height: 3rem;
     margin: 0.5rem;
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 20px;
     border: none;
+}
+nav input:hover {
+    background-color: #a9d0ea;
 }
 textarea {
     font-size: 1.7em;
@@ -77,9 +84,7 @@ textarea {
     padding-bottom: 0.6rem;
 
 }
-nav select {
-    
-}
+
 #text {
     float: left;
     margin-left: 3em;
@@ -101,12 +106,12 @@ aside {
     float: left;
     width: 25em;
     background-color: rgb(242, 245, 244);
-    height: 100vh;
+    height: 150vh;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-right: 8em;
     padding-left: 1.5em;
-
+    
 }
 
 aside fieldset { 
@@ -131,6 +136,12 @@ aside h2 {  /*Filtres*/
     border-color: #000;
     background-color: rgb(242, 245, 244);
     margin-right: 4em;
+    /************** Title: How TO - CSS Shadow Effects * Author: w3schools.com
+
+* Site owner/sponsor: w3schools.com * 
+* Availability: https://www.w3schools.com/css/css3_shadows.asp (Accessed 2 Dec 2024) 
+* Modified: no modified *****************************************************/
+transform: scale(1.02); /* ref */
     box-shadow: 0px 9px 15px -5px rgba(0, 0, 0, 0.4);/* ref */
     width: 33em;
     height: 25em;
@@ -157,6 +168,11 @@ article img {
     border-top-right-radius: 38px;
 }
 article img:hover {
+    /************** Title: How TO - Zoom on Hover * Author: w3schools.com
+
+* Site owner/sponsor: w3schools.com * 
+* Availability: https://www.w3schools.com/howto/howto_css_zoom_hover.asp (Accessed 2 Dec 2024) 
+* Modified: no modified *****************************************************/
     transform: scale(1.02); /* ref */
     transition: transform 0.3s ease;}
 article div p {
@@ -184,6 +200,99 @@ article a {
 /***************FOOTER*****/
 footer {
     width: 100%;
-    height: 35vh;
+    height: 10em;
+    font-size: 1.5em;
     background-color: rgb(58, 145, 222);
+}
+footer div {
+    /*background-color: #000;*/
+    margin-left: 10rem;
+    padding-top: 4em ;
+    width: 15em;
+}
+footer div p {
+    color:#FFF;
+    background-color:#0d476d ;
+    padding: 0.5em;
+    float: left;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 8em;
+}
+footer span {
+    margin-left: 5em;
+    color:#FFF;
+    font-size: 1.2em;
+    text-decoration:underline ;
+
+}
+
+/*-----------------------*/
+content .choice {
+    height: 10rem;
+    float:left;
+    width: 60%;
+    background-color: rgb(242, 245, 244);
+    /************** Title: How TO - CSS Shadow Effects * Author: w3schools.com
+
+* Site owner/sponsor: w3schools.com * 
+* Availability: https://www.w3schools.com/css/css3_shadows.asp (Accessed 2 Dec 2024) 
+* Modified: no modified *****************************************************/
+    box-shadow: 0px 9px 15px -5px rgba(0, 0, 0, 0.4);/* ref */
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+#cont div p:first-of-type {
+    margin-top: 0.6rem;
+    font-size: 3em;
+    margin-bottom: 0.7rem;
+}
+#cont div p {
+    font-size: 1.5em;
+    margin-bottom: 0.3rem;
+}
+.choice img {
+    height: 87%;
+    border-radius: 15px;
+    margin:0.6em;
+    border: 5px solid #d4e3ed;
+    float: left;
+    margin-right: 3em;
+}
+.choice .star {
+    color:rgb(255, 215, 0);
+    font-size: 2em;
+}
+#cont .hotelInfo {
+    float: left;
+}
+#cont .price {
+    float: right;
+    font-size: 0.4em;
+    text-align: center;
+    padding-right: 5%;
+    margin-bottom: 0em;
+    color: #6c6b6b;
+    margin-top: 3em;;
+}
+#cont .euro {
+    font-size: 2.3rem;
+    text-align: center;
+    color: #000;
+}
+
+#cont .button {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.2em;
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ffffff;
+    background-color: #0e86d4;
+    border-radius: 10px;
+}
+footer {
+    float: left;
 }
