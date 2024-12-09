@@ -296,3 +296,68 @@ content .choice {
 footer {
     float: left;
 }
+
+/*-----------------------*/
+
+#signup {
+    width: 40%;
+    margin: 0 auto; /*Author: Anne O Brien*/
+}
+#signup form {
+	margin-left: auto;
+    margin-right: auto;
+    display: table;
+    font-size: 1.2em;
+    padding: 1em;
+    border: none;
+}
+
+#signup label {
+    display: table-cell;
+    font-size: 1.2em;
+    margin: 1em;
+
+}
+
+#signup input {
+    display: table-cell;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 4px;
+    border-width: 0.1px;
+    margin-right: 1em;
+}
+#signup fieldset {
+    border: none;
+}
+.row {
+    display: table-row;
+}
+#signup fieldset {
+    margin-top: 2em;
+}
+#signup legend {
+    font-size: 1.2em;
+}
+#submit {
+    width: 100%;
+    padding: 0.5em;
+    font-weight: bold;
+    background-color: #0e86d4;
+    color:#FFF;
+    margin-left: 0;
+}
+#reset {
+    width: 100%;
+    padding: 0.5em;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-width: 1px;
+    margin-left: 0;
+
+}
+.signfooter {
+    width: 25%;
+    margin: 0 auto; /*Author: Anne O Brien*/
+    border-top: 1px solid rgb(165, 164, 165);
+}
