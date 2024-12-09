@@ -42,6 +42,7 @@ nav {
     height: 12em;
     background-position: bottom;
     padding-top: 1.8em;
+    background-size: cover; /*Author: Anne O Brien*/
 }
 nav > div { /* search bar */
     width: 80%;
@@ -117,6 +118,7 @@ aside {
 aside fieldset { 
     font-size: 1.8em;
     border: none;
+    margin-top: 1em;
 }
 aside legend { /*popular filtres*/
     font-size: 1.5em;
@@ -299,26 +301,17 @@ footer {
 
 /*-----------------------*/
 
-#signup {
-    width: 40%;
-    margin: 0 auto; /*Author: Anne O Brien*/
-}
-#signup form {
-	margin-left: auto;
-    margin-right: auto;
-    display: table;
-    font-size: 1.2em;
-    padding: 1em;
-    border: none;
-}
-
 #signup label {
     display: table-cell;
     font-size: 1.2em;
     margin: 1em;
+    width: 6em;
 
 }
-
+#signup h1 {
+    text-align: center;
+    margin-top: 2em;
+}
 #signup input {
     display: table-cell;
     margin-left: 1em;
@@ -335,17 +328,59 @@ footer {
 }
 #signup fieldset {
     margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 #signup legend {
     font-size: 1.2em;
 }
+#signup form {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+#signup {
+    width: 40%;
+    margin: 0 auto; /*Author: Anne O Brien*/
+}
+
+
+
+
+
+
+#signup form { /*Author: Anne O Brien*/
+    width:50%;
+    margin:0 auto;
+  }
+  
+ 
+  
+  .row {
+    display: table-row;
+  }
+
+  .layout {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+
+#lastfield{
+    margin-left: 0%;
+}
+
+
+
+
 #submit {
     width: 100%;
     padding: 0.5em;
     font-weight: bold;
     background-color: #0e86d4;
     color:#FFF;
-    margin-left: 0;
+    margin-left: 0px !important;
+
 }
 #reset {
     width: 100%;
@@ -354,10 +389,17 @@ footer {
     background-color: #ffffff;
     border-width: 1px;
     margin-left: 0;
-
+    float: left;
+    margin-left: 0px !important;
+    margin-bottom: 0.5em;
 }
 .signfooter {
-    width: 25%;
+    width: 23%;
     margin: 0 auto; /*Author: Anne O Brien*/
     border-top: 1px solid rgb(165, 164, 165);
+    margin-top: 1em;
+}
+.signfooter p {
+    text-align: center;
+    margin: 0.5em 0.5em;
 }

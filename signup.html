@@ -12,33 +12,33 @@
     <span> <a href="http://www.ittralee.ie" class="right">Support</a></span>
     <span> <a href="http://www.ittralee.ie" class="right">Help</a></span>
     <span> <a href="http://www.ittralee.ie" class="right">Sitemap</a></span>
-    <span> <a href="http://www.ittralee.ie" class="right">Sign up</a></span>
+    <span> <a href="signup.html" class="right">Sign up</a></span>
   </div>
     </header>
     <div id = "signup">
-      <h2>
+      <h1>
         Create account
-      </h2>
-      <form method="get" action="mailto:" class="form-example">
+      </h1>
+      <form method="get" action="mailto:" >
         <fieldset>
           
         <div class = "row">
-          <label for = "name">
-            Name: 
-          <input type = "text" id = "name" name = "name" maxlength = "20" size = "30"> 
-          </label>
+          <label for = "name" class="layout">
+            Name:   </label>
+          <input class="layout" type = "text" id = "name" name = "name" maxlength = "20" size = "30"> 
+        
         </div>
         <div class = "row">
-          <label for = "add1">Surname: 
-          <input type = "text" id = "Surname" name = "Surname" maxlength = "20" size = "30"> </label>
+          <label for = "add1" class="layout" >Surname: </label>
+          <input class="layout" type = "text" id = "Surname" name = "Surname" maxlength = "20" size = "30"> 
         </div>
         <div class = "row"> 
-          <label for = "add2">Email: 
-          <input type = "text" id = "Email" name = "Email" maxlength = "20" size = "30"> </label><br>
+          <label class="layout" for = "add2">Email: </label>
+          <input class="layout" type = "text" id = "Email" name = "Email" maxlength = "20" size = "30"> <br>
         </div>
         <div class = "row"> 
-          <label for = "add2">Phone: 
-          <input type = "text" id = "Phone" name = "Phone" maxlength = "20" size = "30" value = "+353"> </label><br>
+          <label class="layout" for = "add2">Phone: </label>
+          <input class="layout" type = "text" id = "Phone" name = "Phone" maxlength = "20" size = "30" value = "+353"> <br>
         </div>
       </fieldset>
         <fieldset>
@@ -53,7 +53,7 @@
       <fieldset >
         <legend>Date of birth</legend>
 
-                <select id="inmonth" name="inmonth">
+                <select id="month" name="month">
   
                   <option value="01">January</option>
   
@@ -81,7 +81,7 @@
   
                 </select>
   
-                <select id="indate" name="indate">
+                <select id="date" name="date">
   
                   <option value="01">1</option>
   
@@ -161,15 +161,16 @@
       <fieldset>
           
         <div class = "row">
-          <label for = "pass1">Password: 
+          <label for = "pass1">Password: </label>
           <input type = "password" id = "pass1" name = "pass1" maxlength = "20" size = "30"> 
-          </label>
+          
         </div>
         <div class = "row">
-          <label for = "pass2">Confirm password: 
-          <input type = "password" id = "pass2" name = "pass2" maxlength = "20" size = "30"> </label>
+          <label for = "pass2">Confirm password: </label>
+          <input type = "password" id = "pass2" name = "pass2" maxlength = "20" size = "30"> 
         </div>
-        <fieldset>
+        </fieldset>
+        <fieldset id = "lastfield">
           <input type="submit" id="submit" value="Submit" ><br>
           <input type="reset" id="reset" value="Reset" >
 
@@ -183,7 +184,9 @@
               </form>
     </div>
     <div class="signfooter">
-arega
+      <p>By signing in or creating an account, you agree with our Terms & Conditions and Privacy Statement
+        All rights reserved.
+        <br>Copyright (2024) – Restcompass.com™</p>
     </footer>
 
 
