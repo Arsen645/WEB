@@ -299,7 +299,7 @@ footer {
     float: left;
 }
 
-/*-----------------------*/
+/*--------------signup.html---------*/
 
 #signup label {
     display: table-cell;
@@ -350,7 +350,7 @@ footer {
 
 
 
-#signup form { /*Author: Anne O Brien*/
+#signup form { 
     width:50%;
     margin:0 auto;
   }
